@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Finger Speed Test</string>
+    <string name="tap_me">TAP ME</string>
+    <string name="current_score">Know current score</string>
+    <string name="current_remaining_time">Know current time</string>
+    <string name="version">App version</string>
+</resources>

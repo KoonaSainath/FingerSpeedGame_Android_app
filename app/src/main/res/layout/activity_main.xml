@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/grey"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_timer"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="200sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:id="@+id/txt_taps"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="100sp"
+        />
+
+    <Button
+        android:id="@+id/btn_tap"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:textSize="30sp"
+        android:background="@drawable/button_style"
+        android:text="@string/tap_me"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
